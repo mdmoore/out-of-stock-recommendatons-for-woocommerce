@@ -1,0 +1,4 @@
+*** Out of Stock Recommendations for WooCommerce Changelog ***
+
+2021-xx-xx
+* Initial release.
