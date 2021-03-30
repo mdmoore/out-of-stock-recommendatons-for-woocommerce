@@ -1,4 +1,4 @@
 *** Out of Stock Recommendations for WooCommerce Changelog ***
 
-2021-xx-xx
+2021-xx-xx - version 1.0.0
 * Initial release.

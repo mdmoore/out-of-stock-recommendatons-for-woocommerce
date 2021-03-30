@@ -23,5 +23,30 @@ if ( ! class_exists( 'Out_Of_Stock_Recommendations_For_WooCommerce' ) ) {
 	 */
 	class Out_Of_Stock_Recommendations_For_WooCommerce {
 
+        /**
+		 * Constructor.
+		 * 
+		 * @since   1.0.0
+		 * @version 1.0.0
+		 */
+        public function __construct() {
+            add_action( 'init', array( $this, 'includes' ) );
+        }
+
+        /**
+         * Includes needed files
+         * 
+         * @since 1.0.0
+         * @version 1.1.3
+         */
+        public function includes() {
+
+            if ( is_admin() ) {
+                require_once( dirname( __FILE__ ) .'/includes/class-osrfw-admin-product-meta.php' );
+            }
+        }
+
     }
+
+    new Out_Of_Stock_Recommendations_For_WooCommerce();
 }
