@@ -44,6 +44,8 @@ if ( ! class_exists( 'Out_Of_Stock_Recommendations_For_WooCommerce' ) ) {
             if ( is_admin() ) {
                 require_once( dirname( __FILE__ ) .'/includes/class-osrfw-admin-product-meta.php' );
             }
+
+            require_once( dirname( __FILE__ ) .'/includes/class-osrfw-single-product.php' );
         }
 
     }

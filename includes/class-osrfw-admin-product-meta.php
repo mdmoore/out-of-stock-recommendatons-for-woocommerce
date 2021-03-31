@@ -1,5 +1,12 @@
 <?php 
 
+/**
+ * OSRFW_Admin_Product_Meta renders product select and saves selection.
+ * 
+ * @package Out_Of_Stock_Recommendations_For_WooCommerce
+ * @since   1.0.0
+ */
+
 if ( ! class_exists( 'OSRFW_Admin_Product_Meta' ) ) {
     class OSRFW_Admin_Product_Meta {
 
