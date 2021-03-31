@@ -16,4 +16,4 @@ Select product(s) to appear as recommendations on single product pages when the 
 After installing & activating the plugin:
 
 1. Add or edit a product
-1. Go to Linked Products and select recommend products to be displayed when the product is out of stock
+1. Go to Linked Products and select recommended products to be displayed when the product is out of stock
