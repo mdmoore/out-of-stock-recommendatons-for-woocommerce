@@ -6,7 +6,7 @@
  * Description: Recommend a specific product when a product is out of stock
  * Author: Mike Moore
  * Author URI: https://github.com/mdmoore
- * Text Domain: out-of-stock-recommendations-for-woo
+ * Text Domain: out-of-stock-recommendations-for-woocommerce
  * Version: 1.0.0
  */
 
