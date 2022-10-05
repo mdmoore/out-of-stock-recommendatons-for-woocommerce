@@ -2,7 +2,7 @@
 
 ### Description
 
-Select product(s) to appear as recommendations on single product pages when the product is out of stock. 
+Select products to appear as recommendations on single product pages when the product is out of stock. 
 
 ### Installation
 
